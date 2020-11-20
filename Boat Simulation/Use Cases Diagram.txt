@@ -1,0 +1,124 @@
+First Use Case : 
+
+Use Case : <Start Button>
+
+Level : <High>
+
+Description : <Boat will move and collect all oil spilled in the ocean.>
+
+Actor : <User>
+
+Pre-conditions : 
+
+1) GUI should be displayed on the screen.
+2) start button should not be grid out.
+
+Trigger : <After clicking on Start button, our boat will move from one location to another respective of selected path and collect oil.>
+
+Post Conditions :
+
+1) Success end condition - Boat will collect all oil spilled.
+
+2) Failure Conditions - Boat will not move.
+
+3) Minimal Condition - Boat will move and collect oil
+
+Main Scenario :
+
+1) Boat will start from base and will move to its desired destination and collect all oil spilled in the ocean.
+
+
+
+Second Use Case :
+
+Use Case : <Stop Button>
+
+Level : <High>
+
+Description : <Boat will stop moving>
+
+Actor : <User>
+
+Pre-conditions : 
+
+1) GUI should be displayed on the screen.
+2) Stop button should not be grid out.
+
+Trigger : <After clicking on Stop button, our boat will not move from one location to another location and stop collecting oil.>
+
+Post Conditions :
+
+1) Success end condition - Boat will not move and collect oil.
+
+2) Failure Conditions - Boat will move.
+
+3) Minimal Condition - Boat will not move and collect oil.
+
+Main Scenario :
+
+1) Boat will stop moving and collecting oil. It will remain at that state. Next time, when "Start" is pressed, our ocean will move to initial state.
+
+
+
+Third Use Case :
+
+
+Use Case : <Boat Path Till Oil>
+
+Level : <Medium>
+
+Description : <This comboBox will help us to to decide path to reach spilled oil. >
+
+Actor : <User>
+
+Pre-conditions : 
+
+1) GUI should be displayed on the screen.
+2) Boat Path Till Oil combo box should be displayed.
+
+Trigger : <You can select path through which you want to reach oil spilled location>
+
+Post Conditions :
+
+1) Success end condition - Boat will successfully reach the ocean through any path described in the Combo Box.
+
+2) Failure Conditions - Boat will not move accordingly.
+
+3) Minimal Condition - Boat will successfully reach the ocean through any path described in the Combo Box.
+
+Main Scenario :
+
+1) There are three options SHortest path, Row then column , column the row. User can select any path and will reach the spilled oil location.
+
+
+
+Fourth Use Case :
+
+
+Use Case : <Boat Speed>
+
+Level : <Low>
+
+Description : <This comboBox will control Boat Speed >
+
+Actor : <User>
+
+Pre-conditions : 
+
+1) GUI should be displayed on the screen.
+2) Boat Speed combo box should be displayed.
+
+Trigger : <You can select boat Speed 20 mph or 40 mph>
+
+Post Conditions :
+
+1) Success end condition - Boat will successfully increase its speed.
+
+2) Failure Conditions - Boat will not move or there will be no increment in the boat Speed.
+
+3) Minimal Condition - Boat will successfully increase its speed.
+
+Main Scenario :
+
+1) There are two options 20 mph or 40 mph. User can select anyone  and will move accordingly.
+
